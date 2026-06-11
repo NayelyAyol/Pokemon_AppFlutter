@@ -63,11 +63,11 @@ lib/
 
 - Busqueda
 
-<img width="397" height="547" alt="image" src="https://github.com/user-attachments/assets/70e54898-a971-47a8-8586-92149a755806" />
+<img width="402" height="548" alt="image" src="https://github.com/user-attachments/assets/982f2aef-8a01-403a-9eab-1c24e9404553" />
 
 - Lista
 
-<img width="392" height="545" alt="image" src="https://github.com/user-attachments/assets/5031a30d-c848-4657-9a19-28058da541a2" />
+<img width="406" height="546" alt="image" src="https://github.com/user-attachments/assets/18deba77-9a01-4fd5-afae-905934f9b3fc" />
 
 - Características
 
