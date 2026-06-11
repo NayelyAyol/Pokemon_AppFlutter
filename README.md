@@ -1,200 +1,92 @@
-# 🎮 Pokémon Infinite Scroll Flutter
+# Pokédex
 
-Aplicación móvil desarrollada con **Flutter** que consume la API pública de Pokémon (**PokeAPI**) para mostrar información detallada de los personajes utilizando **Infinite Scrolling Pagination** y un buscador por nombre.
-
-## 📱 Descripción
-
-Esta aplicación permite explorar Pokémon de forma dinámica obteniendo información directamente desde la API oficial de Pokémon.
-
-Los personajes se cargan automáticamente de **5 en 5** conforme el usuario se desplaza por la lista, implementando la técnica de **Infinite Scroll**. Además, se incluye una funcionalidad adicional para buscar Pokémon por nombre.
+Aplicación móvil en Flutter que consume la PokeAPI para listar Pokémon con scroll infinito y búsqueda por nombre.
 
 ---
 
-## ✨ Características
+## Descripción
 
-✅ Consumo de API REST (PokeAPI)
-
-✅ Infinite Scroll Pagination
-
-✅ Carga de Pokémon de 5 en 5
-
-✅ Buscador por nombre
-
-✅ Visualización de imágenes oficiales
-
-✅ Diseño con Material 3
-
-✅ Manejo de errores de carga
-
-✅ Compatible con Android y Web
+Muestra tarjetas de Pokémon cargadas de 5 en 5 conforme el usuario hace scroll. Cada tarjeta incluye imagen, tipos con chips de colores, habilidades, y estadísticas básicas. También permite buscar un Pokémon específico por nombre.
 
 ---
 
-## 📊 Información mostrada de cada Pokémon
+## Tecnologías
 
-La aplicación muestra más de 10 atributos por personaje:
-
-* ID
-* Nombre
-* Imagen
-* Altura
-* Peso
-* Experiencia Base
-* Orden
-* Tipos
-* Habilidades
-* Cantidad de Tipos
-* Cantidad de Habilidades
-* Disponibilidad de Imagen
+- Flutter / Dart
+- PokeAPI — https://pokeapi.co/
+- infinite_scroll_pagination ^5.1.1
+- http ^1.6.0
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
 
-* Flutter
-* Dart
-* HTTP Package
-* Infinite Scroll Pagination
-* Material Design 3
-* PokeAPI
+## Descripción
+
+Muestra tarjetas de Pokémon cargadas de 5 en 5 conforme el usuario hace scroll. Cada tarjeta incluye imagen, tipos con chips de colores, habilidades, y estadísticas básicas. También permite buscar un Pokémon específico por nombre.
 
 ---
 
-## 📦 Dependencias
+## Tecnologías
 
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-
-  http: ^1.6.0
-  infinite_scroll_pagination: ^5.1.1
-```
+- Flutter / Dart
+- PokeAPI — https://pokeapi.co/
+- infinite_scroll_pagination ^5.1.1
+- http ^1.6.0
 
 ---
 
-## 🌐 API Utilizada
-
-PokeAPI:
-
-https://pokeapi.co/
-
-Endpoint principal:
-
-https://pokeapi.co/api/v2/pokemon
-
----
-
-## 🚀 Instalación
-
-Clonar el repositorio:
+## Instalación
 
 ```bash
 git clone https://github.com/TU_USUARIO/Pokemon-Infinite-Scroll-Flutter.git
-```
-
-Ingresar al proyecto:
-
-```bash
 cd Pokemon-Infinite-Scroll-Flutter
-```
-
-Instalar dependencias:
-
-```bash
 flutter pub get
-```
-
-Ejecutar aplicación:
-
-```bash
 flutter run
 ```
 
 ---
 
-## 📸 Capturas de Pantalla
+## Estructura
 
-### Pantalla Principal
-
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/3a3b40d3-0f56-49f9-be66-106cae18f4de" />
-
----
-
-### Infinite Scroll
-
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/303d6d53-2a57-4846-9c0c-5bac2f270a79" />
-
----
-
-### Búsqueda de Pokémon
-
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/9949b05e-98c8-4a31-8a11-91b5b7c4533a" />
-
-### Información Detallada
-
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/f1af8f83-a731-4d6b-ad26-7725e4214de2" />
-
----
-
-## 🎯 Funcionalidades Implementadas
-
-### Actividad 1
-
-Mostrar al menos 10 elementos del personaje.
-
-✔ Implementado.
-
----
-
-### Actividad 2
-
-Implementar Infinite Scrolling para mostrar personajes de 5 en 5.
-
-✔ Implementado mediante el paquete:
-
-```text
-infinite_scroll_pagination
 ```
-
----
-
-### Funcionalidad Extra
-
-Búsqueda de Pokémon por nombre.
-
-✔ Implementado.
-
----
-
-## 📂 Estructura del Proyecto
-
-```text
 lib/
-│
 ├── main.dart
-│
 ├── models/
 │   └── pokemon.dart
-│
-├── services/
-│   └── pokemon_service.dart
-│
-android/
-ios/
-web/
+└── services/
+    └── pokemon_service.dart
 ```
 
 ---
 
-## 👩‍💻 Autor
+## Capturas
 
-**Odaliz Balseca Valencia**
+- Busqueda
 
-Desarrollo de Aplicaciones Móviles - Flutter
+<img width="397" height="547" alt="image" src="https://github.com/user-attachments/assets/70e54898-a971-47a8-8586-92149a755806" />
+
+- Lista
+
+<img width="392" height="545" alt="image" src="https://github.com/user-attachments/assets/5031a30d-c848-4657-9a19-28058da541a2" />
+
+- Características
+
+<img width="243" height="291" alt="image" src="https://github.com/user-attachments/assets/bcb7e1f7-800b-4c55-ba89-6df7092a6cc8" />
+
+
+## Estructura
+
+```
+lib/
+├── main.dart
+├── models/
+│   └── pokemon.dart
+└── services/
+    └── pokemon_service.dart
+```
 
 ---
 
-## 📄 Licencia
+## Autor
 
-Este proyecto fue desarrollado con fines académicos.
+Nayely Ayol — Desarrollo de Aplicaciones Móviles
