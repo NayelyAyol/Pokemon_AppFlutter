@@ -475,49 +475,34 @@ class _PokemonPageState extends State<PokemonPage> {
                   child: Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      color: const Color(0xFF90CAE4),  // celeste acento
+                      color: const Color(0xFF90CAE4),
                       borderRadius: BorderRadius.circular(30),
                     ),
                     child: const Icon(
-                      Icons.send,
+                      Icons.search,
                       color: Colors.white,
                       size: 18,
                     ),
                   ),
                 ),
+                const SizedBox(width: 8),
+                GestureDetector(
+                  onTap: showAllPokemons,
+                  child: Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFFFFFFF),
+                      borderRadius: BorderRadius.circular(30),
+                      border: Border.all(color: const Color(0xFFBEDEF5)),
+                    ),
+                    child: const Icon(
+                      Icons.refresh,
+                      color: Color(0xFF5A9EBF),
+                      size: 18,
+                    ),
+                  ),
+                ),
               ],
-            ),
-          ),
-
-          // Show all button
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
-            child: SizedBox(
-              width: double.infinity,
-              child: OutlinedButton.icon(
-                onPressed: showAllPokemons,
-                icon: const Icon(
-                  Icons.refresh,
-                  size: 14,
-                  color: Color(0xFF5A9EBF),
-                ),
-                label: const Text(
-                  'MOSTRAR TODOS',
-                  style: TextStyle(
-                    color: Color(0xFF5A9EBF),
-                    fontSize: 11,
-                    letterSpacing: 2,
-                  ),
-                ),
-                style: OutlinedButton.styleFrom(
-                  side: const BorderSide(color: Color(0xFFBEDEF5)),
-                  backgroundColor: const Color(0xFFFFFFFF),
-                  padding: const EdgeInsets.symmetric(vertical: 10),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                ),
-              ),
             ),
           ),
 
