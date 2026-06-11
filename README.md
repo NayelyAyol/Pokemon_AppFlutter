@@ -18,8 +18,11 @@ Muestra tarjetas de Pokémon cargadas de 5 en 5 conforme el usuario hace scroll.
 - http ^1.6.0
 
 ---
+## Autor
 
+Nayely Ayol — Desarrollo de Aplicaciones Móviles
 
+---
 ## Descripción
 
 Muestra tarjetas de Pokémon cargadas de 5 en 5 conforme el usuario hace scroll. Cada tarjeta incluye imagen, tipos con chips de colores, habilidades, y estadísticas básicas. También permite buscar un Pokémon específico por nombre.
@@ -32,17 +35,6 @@ Muestra tarjetas de Pokémon cargadas de 5 en 5 conforme el usuario hace scroll.
 - PokeAPI — https://pokeapi.co/
 - infinite_scroll_pagination ^5.1.1
 - http ^1.6.0
-
----
-
-## Instalación
-
-```bash
-git clone https://github.com/TU_USUARIO/Pokemon-Infinite-Scroll-Flutter.git
-cd Pokemon-Infinite-Scroll-Flutter
-flutter pub get
-flutter run
-```
 
 ---
 
@@ -63,7 +55,7 @@ lib/
 
 - Busqueda
 
-<img width="402" height="548" alt="image" src="https://github.com/user-attachments/assets/982f2aef-8a01-403a-9eab-1c24e9404553" />
+<img width="224" height="470" alt="image" src="https://github.com/user-attachments/assets/e796aee1-d1e3-4f28-b5bf-4f090b61ba34" />
 
 - Lista
 
@@ -86,7 +78,3 @@ lib/
 ```
 
 ---
-
-## Autor
-
-Nayely Ayol — Desarrollo de Aplicaciones Móviles
